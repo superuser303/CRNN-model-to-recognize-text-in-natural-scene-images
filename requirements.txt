@@ -1,0 +1,59 @@
+# Core ML libraries
+torch>=1.7.0
+torchvision>=0.8.0
+torchaudio>=0.7.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.0.0
+albumentations>=1.0.0
+
+# Data handling
+numpy>=1.19.0
+pandas>=1.2.0
+scipy>=1.6.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+tensorboard>=2.4.0
+
+# Web framework
+Flask>=2.0.0
+Flask-CORS>=3.0.10
+gunicorn>=20.1.0
+
+# Configuration
+PyYAML>=5.4.0
+omegaconf>=2.1.0
+
+# Utilities
+tqdm>=4.60.0
+argparse>=1.4.0
+pathlib>=1.0.1
+logging>=0.4.9.6
+
+# Text processing
+editdistance>=0.5.3
+Levenshtein>=0.12.2
+
+# Model utilities
+torchsummary>=1.5.1
+pytorch-lightning>=1.3.0
+
+# API and deployment
+fastapi>=0.65.0
+uvicorn>=0.13.0
+requests>=2.25.0
+
+# Development and testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+black>=21.5b0
+flake8>=3.9.0
+mypy>=0.812
+
+# Optional GPU support
+# Uncomment if using CUDA
+# torch-audio>=0.7.0+cu111
+# torch-vision>=0.8.0+cu111
