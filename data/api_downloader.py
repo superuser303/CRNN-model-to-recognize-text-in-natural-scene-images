@@ -7,7 +7,6 @@ from pathlib import Path
 from tqdm import tqdm
 import hashlib
 import time
-# data/api_downloader.py
 api_key = os.getenv("ROBOFLOW_API_KEY") or self.config["datasets"]["IIIT5K"]["sources"][0].get("api_key", "")
 class APIDatasetDownloader:
     def __init__(self, config_path="configs/datasets.yaml"):
@@ -74,3 +73,8 @@ class APIDatasetDownloader:
     def _is_valid(self, path, required_files):
         """Validate dataset integrity"""
         return all((path / f).exists() for f in required_files)
+
+class Downloader:
+    def download(self, url):
+        # use self here
+        pass
