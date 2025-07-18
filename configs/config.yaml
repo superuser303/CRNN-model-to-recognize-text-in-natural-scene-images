@@ -1,4 +1,4 @@
 data:
-  train_data_path: "src/data/IIIT5K/IIIT5K_img"
-  val_data_path: "src/data/IIIT5K/IIIT5K_img"
-  annotation_file: "src/data/IIIT5K/IIIT5K.txt"
+  train_data_path: "data/IIIT5K/IIIT5K_img"
+  val_data_path: "data/IIIT5K/IIIT5K_img"
+  annotation_file: "data/IIIT5K/IIIT5K.txt"
