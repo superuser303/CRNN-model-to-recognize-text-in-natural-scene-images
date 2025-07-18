@@ -190,7 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Author**: Exploiter
 - **Email**: exploiter0023@outlook.com
-- **Project Link**: [https://github.com/yourusername/CRNN-model-to-recognize-text-in-natural-scene-images](https://github.com/yourusername/CRNN-model-to-recognize-text-in-natural-scene-images)
+- **Project Link**: [https://github.com/superuser303/CRNN-model-to-recognize-text-in-natural-scene-images](https://github.com/yourusername/CRNN-model-to-recognize-text-in-natural-scene-images)
 
 ---
 
