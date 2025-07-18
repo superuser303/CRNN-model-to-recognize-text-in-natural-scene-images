@@ -1,2 +1,2 @@
-from .auto_dataset import dataset_manager as auto_data
-__all__ = ['auto_data']
+from .auto_dataset import dataset_manager
+__all__ = ['dataset_manager']
