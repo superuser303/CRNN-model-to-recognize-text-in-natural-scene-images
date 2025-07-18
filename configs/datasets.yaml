@@ -1,0 +1,18 @@
+datasets:
+  IIIT5K:
+    required_files: ["train.json", "test.json"]
+    sources:
+      - name: "Roboflow Mirror"
+        type: "roboflow"
+        url: "https://universe.roboflow.com/dod/iiit5k-lzg9f/download/yolov8"
+        
+      - name: "GitHub Mirror"
+        type: "direct"
+        url: "https://github.com/adumrewal/iiit-5k-word-coco-dataset/archive/refs/heads/main.zip"
+
+  SynthText:
+    required_files: ["SynthText.h5"]
+    sources:
+      - name: "Official Source"
+        type: "direct"
+        url: "https://www.robots.ox.ac.uk/~vgg/data/scenetext/SynthText.zip"
