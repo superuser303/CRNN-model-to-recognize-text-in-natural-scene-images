@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+import sys
+import os
+
+# Add the parent directory to Python path so we can import from 'data'
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from data import auto_data
 
 if __name__ == "__main__":

@@ -7,7 +7,6 @@ from pathlib import Path
 from tqdm import tqdm
 import hashlib
 import time
-api_key = os.getenv("ROBOFLOW_API_KEY") or self.config["datasets"]["IIIT5K"]["sources"][0].get("api_key", "")
 class APIDatasetDownloader:
     def __init__(self, config_path="configs/datasets.yaml"):
         self.config = self._load_config(config_path)
